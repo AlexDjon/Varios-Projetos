@@ -1,0 +1,83 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-weight: normal;
+  font-family: sans-serif;
+}
+
+body {
+  background: #ebebeb;
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  width: 100%;
+}
+
+.valor {  
+  width: 450px;
+  background: #ffffff;
+  margin-top: 40px;
+  text-align: center;
+  border-radius: 8px;
+  padding: 30px 0;
+  box-shadow: -4px 5px 12px 0px rgba(10, 10, 10, 0.14);
+}
+
+.valor  h3 {
+  font-weight: bold;
+  color: #1f1f1f;
+  margin-bottom: 30px;
+}
+
+.valor label {
+  margin-right: 7px;
+  font-size: 15.5px;
+}
+
+.valor input {
+  width: 60px;
+  padding: 10px 12px;
+  border: solid 1px #cecece;
+  border-radius: 7px;
+}
+
+.notas { 
+  width: 450px;
+  background: #ffffff;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  text-align: center;
+  border-radius: 8px;
+  padding: 30px 0;
+  box-shadow: -4px 5px 12px 0px rgba(10, 10, 10, 0.14);
+}
+
+.notas .elemento {
+  width: 70%;
+  margin: 20px 15%;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center ;
+}
+.notas .elemento img {
+  width: 80%;
+}
+.notas label {
+  padding: 10px 15px;
+  border-radius: 3px;
+  background-color: #e0e0e0;
+  font-size: 14px;
+}
+
+@media (max-width: 760px) {
+  .notas,
+  .valor {
+    width: 350px;
+  }
+
+  .valor input {
+    padding: 15px;
+  }
+}
