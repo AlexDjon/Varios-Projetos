@@ -5,7 +5,7 @@ import NotasIMG from './NotasIMG'
 import './global.css'
 
 function App() {
-  const [valor, setValor] = useState('')
+  const [valor, setValor] = useState()
   const [notas, setNotas] = useState([])
   const listaDeNotas = [100, 50, 20, 10, 5, 2]
 
@@ -15,7 +15,7 @@ function App() {
         return (
           <div key={i} className="elemento">
             <h3>{contagem[i]}x</h3>
-            <img src={NotasIMG[i]} alt=""/>
+            <img src={NotasIMG[i]} alt={v}/>
           </div>
         )
       }
