@@ -5,7 +5,7 @@ import NotasIMG from './NotasIMG'
 import './global.css'
 
 function App() {
-  const [valor, setValor] = useState()
+  const [valor, setValor] = useState(0)
   const [notas, setNotas] = useState([])
   const listaDeNotas = [100, 50, 20, 10, 5, 2]
 
